@@ -11,6 +11,7 @@ pylint = "*"
 pylint-django = "*"
 autopep8 = "*"
 pep8 = "*"
+sorl-thumbnail = "*"
 
 [dev-packages]
 

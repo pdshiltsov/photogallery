@@ -1,0 +1,10 @@
+<html>
+albums
+<br>
+{% for album in albums %}
+    <div>
+        <a href="album/{{ album.pk }}">{{ album.title }}</a>
+    <div>
+    <br>
+{% endfor %}
+</html>
